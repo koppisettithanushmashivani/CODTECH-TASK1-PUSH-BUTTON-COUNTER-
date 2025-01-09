@@ -103,7 +103,7 @@ void loop() {
   delay(500); // Delay for stability
 }
 
-BLOCK DIAGRAM:https://github.com/koppisettithanushmashivani/PUSH-BUTTON-COUNTER_Task4/commit/4336d35a770d07718692f05f94d2c54c5fe7a765
+BLOCK DIAGRAM:https://github.com/koppisettithanushmashivani/CODTECH-TASK1-PUSH-BUTTON-COUNTER-/commit/6a44bdd40fa424951d95211680cec7583ddca039
 
 WORKING EXPLANATION:
 The push button is used to activate the system. When the button is pressed, the circuit is powered on, and the microcontroller (e.g., Arduino) begins executing the code.The temperature sensor continuously reads the surrounding temperature. If using a sensor like the LM35, it gives an analog output proportional to the temperature, which is read by the microcontroller's analog input pin.After reading the sensor’s value, the microcontroller converts this raw data into a readable temperature value (in Celsius or Fahrenheit).The LCD or serial monitor displays this temperature reading in real-time. If using an LCD, the microcontroller sends the temperature data to the display, updating it continuously or at a set interval. If using a serial monitor, the data is transmitted over the serial communication line and displayed on the connected computer screen.The push button serves as a trigger to start or reset the process, which is useful for data logging or periodic measurements.This project demonstrates how user input (via the push button) can control the flow of data acquisition and display from a sensor, making it interactive and useful for monitoring environmental conditions.
@@ -111,4 +111,4 @@ The push button is used to activate the system. When the button is pressed, the 
 CONCLUSION:
  The Push Button Counter with a temperature sensor is an effective and interactive project that integrates basic input/output mechanisms with real-world sensor data. By using a push button to trigger the system, users can control when temperature readings are displayed, either on an LCD or through a serial monitor. This setup allows for easy monitoring of temperature fluctuations, making it suitable for applications such as room temperature monitoring, environmental control, or educational purposes in electronics and programming. Additionally, it demonstrates how simple components like sensors, buttons, and displays can work together to provide valuable feedback in an intuitive and user-friendly manner. The project serves as a practical introduction to sensor-based systems, microcontroller programming, and user input handling, offering endless opportunities for further customization and expansion. 
 
-WORKING OUTPUT:https://github.com/koppisettithanushmashivani/PUSH-BUTTON-COUNTER_Task4/commit/7f4ddc7e07e4ecfe4566250e80de56fac6ba2fba
+WORKING OUTPUT:https://github.com/koppisettithanushmashivani/CODTECH-TASK1-PUSH-BUTTON-COUNTER-/commit/a18bcc872c8fccf8342758b36170d76f27f8c303
